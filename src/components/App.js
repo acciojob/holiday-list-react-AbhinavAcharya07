@@ -37,7 +37,6 @@ const App = () => {
 
     return (
         <div id="main">
-            <h1>Indian Cities to Visit</h1>
             <ol>
                 {indianCities.map((city, index) => (
                     <li key={`location${index + 1}`}>
